@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoodSkill | Platform E-Learning Dewasa Profesional</title>
+    <link rel="stylesheet" href="{{ asset ('front/style.css') }}" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>  
+    <header id="mainHeader">
+      <nav class="container">
+        <a href="#" class="logo" id="backToHome">GoodSkill</a>
+        <ul class="nav-links">
+          <li><a href="#hero" class="main-nav-link">Beranda</a></li>
+          <li><a href="#untuk-siapa" class="main-nav-link">Target</a></li>
+          <li><a href="#fitur" class="main-nav-link">Fitur</a></li>
+          <li><a href="#kursus" class="main-nav-link">Kursus</a></li>
+          <li><a href="#instruktur" class="main-nav-link">Instruktur</a></li>
+          <li><a href="#harga" class="main-nav-link">Harga</a></li>
+          <li><a href="#testimoni" class="main-nav-link">Testimoni</a></li>
+          <li><a href="#faq" class="main-nav-link">FAQ</a></li>
+          <li><a href="#kontak" class="main-nav-link cta-button-nav">Hubungi</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <div id="main-content">
+      <section id="hero" class="hero-section">
+        <div class="container hero-content">
+          <h1>Investasikan Waktu Anda, Tingkatkan Keahlian Profesional</h1>
+          <p class="hero-subheadline">
+            Platform e-learning yang dirancang khusus untuk Anda, para profesional dan pembelajar dewasa yang ingin mengembangkan karir, mempelajari keterampilan baru, atau mengejar passion. Belajar fleksibel, materi relevan, dari para ahli
+            di industrinya.
+          </p>
+          <a href="#kursus" class="cta-button">Jelajahi Kursus Kami</a>
+          <a href="#bagaimana-cara-kerja" class="cta-button cta-button-outline">Cara Belajar di Sini</a>
+        </div>
+      </section>
+
+      <section id="untuk-siapa" class="target-audience-section">
+        <div class="container">
+          <h2>Untuk Siapa Platform Ini?</h2>
+          <div class="target-grid">
+            <div class="target-item">
+              <i class="fas fa-user-tie"></i>
+              <h3>Profesional Sibuk</h3>
+              <p>Anda yang ingin meningkatkan skill tanpa mengganggu jadwal kerja. Belajar kapan saja, di mana saja.</p>
+            </div>
+            <div class="target-item">
+              <i class="fas fa-briefcase"></i>
+              <h3>Pencari Karir Baru</h3>
+              <p>Anda yang ingin beralih karir atau memulai bidang baru dengan bekal keterampilan terkini.</p>
+            </div>
+            <div class="target-item">
+              <i class="fas fa-lightbulb"></i>
+              <h3>Pembelajar Seumur Hidup</h3>
+              <p>Anda yang memiliki semangat belajar tinggi dan ingin terus menambah wawasan serta keahlian baru.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="fitur" class="features-section">
+        <div class="container">
+          <h2>Mengapa Memilih GoodSkill?</h2>
+          <div class="features-grid">
+            <div class="feature-item">
+              <i class="fas fa-laptop-code"></i>
+              <h3>Materi Kursus Terstruktur</h3>
+              <p>Kurikulum dirancang oleh ahli industri, fokus pada studi kasus dan aplikasi praktis.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-users-cog"></i>
+              <h3>Dukungan Mentor & Komunitas</h3>
+              <p>Akses ke forum diskusi, sesi tanya jawab dengan mentor, dan jaringan alumni.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-mobile-alt"></i>
+              <h3>Akses Multi-Platform</h3>
+              <p>Belajar dengan nyaman melalui desktop, tablet, maupun smartphone Anda.</p>
+            </div>
+            <div class="feature-item">
+              <i class="fas fa-award"></i>
+              <h3>Sertifikat Terverifikasi</h3>
+              <p>Tingkatkan nilai profesional Anda dengan sertifikat yang diakui industri.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="bagaimana-cara-kerja" class="how-it-works-section">
+        <div class="container">
+          <h2>Bagaimana Cara Memulai?</h2>
+          <div class="steps-grid">
+            <div class="step-item">
+              <span>1</span> <i class="fas fa-mouse-pointer"></i>
+              <h3>Pilih Kursus</h3>
+              <p>Jelajahi katalog kami dan pilih kursus yang sesuai dengan minat dan tujuan karir Anda.</p>
+            </div>
+            <div class="step-item">
+              <span>2</span> <i class="fas fa-user-plus"></i>
+              <h3>Daftar & Bayar</h3>
+              <p>Buat akun dengan mudah dan lakukan pembayaran melalui berbagai metode yang aman.</p>
+            </div>
+            <div class="step-item">
+              <span>3</span> <i class="fas fa-play-circle"></i>
+              <h3>Mulai Belajar</h3>
+              <p>Akses materi video, modul, kuis, dan proyek kapan saja sesuai ritme Anda.</p>
+            </div>
+            <div class="step-item">
+              <span>4</span> <i class="fas fa-graduation-cap"></i>
+              <h3>Dapatkan Sertifikat</h3>
+              <p>Selesaikan semua materi dan tugas untuk mendapatkan sertifikat penyelesaian.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kursus" class="courses-section">
+        <div class="container">
+          <h2>Kursus Unggulan yang Paling Diminati</h2>
+          <div class="courses-grid">
+            <div class="course-card-summary">
+              <div class="course-image-container">
+                <img
+                  src="https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8aHVtYW4lMjBjb21wdXRlciUyMGludGVyYWN0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+                  alt="Interaksi Manusia Komputer"
+                />
+                <span class="course-level">Semua Level</span>
+              </div>
+              <div class="course-content">
+                <h3>Interaksi Manusia Komputer</h3>
+                <p class="course-short-desc">Pelajari prinsip dasar desain antarmuka pengguna yang intuitif dan pengalaman pengguna yang memuaskan.</p>
+                <div class="course-details">
+                  <span><i class="fas fa-clock"></i> ± 45 Jam</span> <span><i class="fas fa-layer-group"></i> 10 Modul</span>
+                </div>
+                <button class="cta-button view-details-button" data-target="#detail-imk" data-intro-video="https://www.youtube.com/embed/5p213xniDkY">Pelajari Lebih Lanjut</button>
+              </div>
+            </div>
+            <div class="course-card-summary">
+              <div class="course-image-container">
+                <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlnaXRhbCUyMG1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Pemasaran Digital" />
+                <span class="course-level">Menengah</span>
+              </div>
+              <div class="course-content">
+                <h3>Digital Marketing Full Stack</h3>
+                <p class="course-short-desc">Strategi lengkap pemasaran digital, termasuk SEO, SEM, social media marketing, dan content creation.</p>
+                <div class="course-details">
+                  <span><i class="fas fa-clock"></i> ± 60 Jam</span> <span><i class="fas fa-layer-group"></i> 15 Modul</span>
+                </div>
+                <button class="cta-button view-details-button" data-target="#detail-dm" data-intro-video="https://www.youtube.com/embed/inF344PqL00">Pelajari Lebih Lanjut</button>
+              </div>
+            </div>
+            <div class="course-card-summary">
+              <div class="course-image-container">
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGF0YSUyMGFuYWx5c2lzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="Analisis Data" />
+                <span class="course-level">Pemula</span>
+              </div>
+              <div class="course-content">
+                <h3>Dasar Analisis Data dengan Python & SQL</h3>
+                <p class="course-short-desc">Belajar mengolah, menganalisis, dan memvisualisasikan data untuk insight bisnis yang powerful.</p>
+                <div class="course-details">
+                  <span><i class="fas fa-clock"></i> ± 35 Jam</span> <span><i class="fas fa-layer-group"></i> 10 Modul</span>
+                </div>
+                <button class="cta-button view-details-button" data-target="#detail-da" data-intro-video="https://www.youtube.com/embed/N6_LJrL4NTs">Pelajari Lebih Lanjut</button>
+              </div>
+            </div>
+          </div>
+          <div class="text-center"><a href="#" class="cta-button cta-button-secondary">Lihat Semua Katalog Kursus</a></div>
+        </div>
+      </section>
+
+      <section id="instruktur" class="instructors-section">
+        <div class="container">
+          <h2>Belajar dari Para Ahli di Bidangnya</h2>
+          <div class="instructors-grid">
+            <div class="instructor-card">
+              <img src="{{ asset ('front/assets/images/ahli001.png') }}" alt="Foto Instruktur 1" class="instructor-avatar" />
+              <h3>Cristiano Ronaldo</h3>
+              <p class="instructor-title">UI/UX Lead & Researcher</p>
+              <p class="instructor-bio">Praktisi desain dengan fokus pada interaksi manusia-komputer dan pengalaman pengguna yang inklusif.</p>
+            </div>
+            <div class="instructor-card">
+              <img src="{{ asset ('front/assets/images/ahli02.png') }}" alt="Foto Instruktur 2" class="instructor-avatar" />
+              <h3>Sergio Ramos</h3>
+              <p class="instructor-title">Digital Marketing Consultant</p>
+              <p class="instructor-bio">Membantu banyak UMKM dan perusahaan berkembang pesat melalui strategi pemasaran digital yang efektif.</p>
+            </div>
+            <div class="instructor-card">
+              <img src="{{ asset ('front/assets/images/ahli03.png') }}" alt="Foto Instruktur 3" class="instructor-avatar" />
+              <h3>Pepe</h3>
+              <p class="instructor-title">Data Analyst & Python Developer</p>
+              <p class="instructor-bio">Spesialis analisis data dengan keahlian mendalam dalam Python, SQL, dan visualisasi data.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="harga" class="pricing-section">
+        <div class="container">
+          <h2>Investasi Terbaik untuk Masa Depan Karir Anda</h2>
+          <div class="pricing-grid">
+            <div class="pricing-plan">
+              <div class="plan-header">
+                <h3>Bulanan</h3>
+                <p class="plan-price">Rp 250.000<span>/bulan</span></p>
+                <p class="plan-desc">Akses ke semua kursus, batalkan kapan saja.</p>
+              </div>
+              <ul class="plan-features">
+                <li><i class="fas fa-check-circle"></i> Akses Semua Kursus</li>
+                <li><i class="fas fa-check-circle"></i> Materi Video HD</li>
+                <li><i class="fas fa-check-circle"></i> Kuis & Tugas</li>
+                <li><i class="fas fa-check-circle"></i> Komunitas Belajar</li>
+                <li><i class="fas fa-times-circle"></i> Sertifikat Pro</li>
+                <li><i class="fas fa-times-circle"></i> Sesi Tanya Jawab Eksklusif</li>
+              </ul>
+              <a href="#" class="cta-button plan-cta">Pilih Paket Ini</a>
+            </div>
+            <div class="pricing-plan popular">
+              <span class="popular-badge">Paling Populer</span>
+              <div class="plan-header">
+                <h3>Tahunan</h3>
+                <p class="plan-price">Rp 2.000.000<span>/tahun</span></p>
+                <p class="plan-desc">Hemat lebih banyak dengan langganan tahunan!</p>
+              </div>
+              <ul class="plan-features">
+                <li><i class="fas fa-check-circle"></i> Akses Semua Kursus</li>
+                <li><i class="fas fa-check-circle"></i> Materi Video HD</li>
+                <li><i class="fas fa-check-circle"></i> Kuis & Tugas</li>
+                <li><i class="fas fa-check-circle"></i> Komunitas Belajar</li>
+                <li><i class="fas fa-check-circle"></i> Sertifikat Pro</li>
+                <li><i class="fas fa-check-circle"></i> Sesi Tanya Jawab Eksklusif</li>
+              </ul>
+              <a href="#" class="cta-button plan-cta">Pilih Paket Ini</a>
+            </div>
+            <div class="pricing-plan">
+              <div class="plan-header">
+                <h3>Per Kursus</h3>
+                <p class="plan-price">Mulai Rp 500.000<span>/kursus</span></p>
+                <p class="plan-desc">Beli kursus individual, akses selamanya.</p>
+              </div>
+              <ul class="plan-features">
+                <li><i class="fas fa-check-circle"></i> Akses Kursus Pilihan</li>
+                <li><i class="fas fa-check-circle"></i> Materi Video HD</li>
+                <li><i class="fas fa-check-circle"></i> Kuis & Tugas</li>
+                <li><i class="fas fa-times-circle"></i> Komunitas Belajar Umum</li>
+                <li><i class="fas fa-check-circle"></i> Sertifikat Standar</li>
+                <li><i class="fas fa-times-circle"></i> Sesi Tanya Jawab Eksklusif</li>
+              </ul>
+              <a href="#" class="cta-button plan-cta">Lihat Katalog</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimoni" class="testimonials-section">
+        <div class="container">
+          <h2>Apa Kata Para Profesional Seperti Anda?</h2>
+          <div class="testimonial-slider">
+            <div class="testimonial-item active">
+              <img src="{{ asset ('front/assets/images/alumni01.png') }}" alt="Foto Alumni 1" class="testimonial-avatar" />
+              <p>"Setelah mengikuti kursus Manajemen Proyek di GoodSkill, saya merasa lebih percaya diri memimpin tim dan berhasil mendapatkan promosi. Materinya sangat aplikatif!"</p>
+              <h4>- Rodrygo., Project Manager</h4>
+            </div>
+            <div class="testimonial-item">
+              <img src="{{ asset ('front/assets/images/alumni02.png') }}" alt="Foto Alumni 2" class="testimonial-avatar" />
+              <p>"Saya beralih karir menjadi Digital Marketer berkat kursus intensif di sini. Fleksibilitasnya sangat membantu saya yang belajar sambil bekerja paruh waktu."</p>
+              <h4>- Mbape., Digital Marketing Specialist</h4>
+            </div>
+            <div class="testimonial-item">
+              <img src="{{ asset ('front/assets/images/alumni03.png') }}" alt="Foto Alumni 3" class="testimonial-avatar" />
+              <p>"Sebagai dosen, saya perlu terus update dengan perkembangan terbaru. GoodSkill menyediakan kursus Analisis Data yang sangat berkualitas dengan instruktur yang kompeten."</p>
+              <h4>- Vini Jr., Dosen & Peneliti</h4>
+            </div>
+          </div>
+          <div class="slider-controls">
+            <button id="prevBtn"><i class="fas fa-chevron-left"></i></button> <button id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="faq-section">
+        <div class="container">
+          <h2>Pertanyaan yang Sering Diajukan (FAQ)</h2>
+          <div class="faq-accordion">
+            <div class="faq-item">
+              <button class="faq-question"><span>Apakah saya bisa belajar jika saya sangat sibuk dengan pekerjaan?</span> <i class="fas fa-chevron-down"></i></button>
+              <div class="faq-answer">
+                <p>
+                  Tentu saja! Platform kami dirancang untuk fleksibilitas. Anda bisa mengakses materi kapan saja dan di mana saja, belajar sesuai ritme Anda sendiri. Banyak kursus kami juga memiliki modul-modul pendek yang bisa diselesaikan
+                  dalam waktu singkat.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Apakah saya akan mendapatkan sertifikat setelah menyelesaikan kursus?</span> <i class="fas fa-chevron-down"></i></button>
+              <div class="faq-answer"><p>Ya, setelah Anda menyelesaikan semua materi kursus, tugas, dan kuis (jika ada), Anda akan menerima sertifikat penyelesaian yang dapat Anda tambahkan ke profil LinkedIn atau CV Anda.</p></div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Bagaimana jika saya kesulitan memahami materi?</span> <i class="fas fa-chevron-down"></i></button>
+              <div class="faq-answer">
+                <p>Kami menyediakan forum diskusi untuk setiap kursus di mana Anda bisa bertanya kepada instruktur atau sesama peserta. Beberapa paket langganan juga menyertakan akses ke sesi tanya jawab langsung dengan mentor.</p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-question"><span>Metode pembayaran apa saja yang diterima?</span> <i class="fas fa-chevron-down"></i></button>
+              <div class="faq-answer"><p>Kami menerima berbagai metode pembayaran, termasuk transfer bank, kartu kredit/debit, dan e-wallet populer. Proses pembayaran aman dan terenkripsi.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak" class="contact-section">
+        <div class="container">
+          <h2>Hubungi Kami</h2>
+          <p>Ada pertanyaan? Tim kami siap membantu Anda.</p>
+          <form id="contactForm">
+            <div class="form-group"><input type="text" id="name" name="name" placeholder="Nama Lengkap Anda" required /></div>
+            <div class="form-group"><input type="email" id="email" name="email" placeholder="Alamat Email Anda" required /></div>
+            <div class="form-group"><textarea id="message" name="message" rows="5" placeholder="Pesan Anda" required></textarea></div>
+            <button type="submit" class="cta-button">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <section id="detail-imk" class="course-detail-page" data-default-video="https://www.youtube.com/embed/mi8E3hZ75cQ?si=lreLNf7_i8tDxTm6">
+      <div class="container">
+        <button class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Daftar Kursus</button>
+        <h1 class="detail-course-title">Interaksi Manusia Komputer</h1>
+        <div class="detail-course-meta">
+          <span><i class="fas fa-user-tie"></i> Instruktur: Cristiano Ronaldo</span>
+          <span><i class="fas fa-tag"></i> Kategori: Desain UI/UX</span>
+          <span><i class="fas fa-signal"></i> Level: Semua Level</span>
+        </div>
+        <div class="detail-content-layout">
+          <div class="detail-left-column">
+            <h2>Deskripsi Kursus</h2>
+            <p>
+              Pelajari fondasi penting dalam merancang interaksi yang efektif dan menyenangkan antara manusia dan teknologi. Kursus ini mencakup prinsip-prinsip desain antarmuka (UI), pengalaman pengguna (UX), metode riset pengguna,
+              prototyping, hingga evaluasi usability. Cocok bagi Anda yang ingin memulai karir di bidang UI/UX Design atau ingin meningkatkan kualitas produk digital Anda.
+            </p>
+            <h2>Apa yang Akan Anda Pelajari?</h2>
+            <ul>
+              <li>Memahami konsep dasar IMK dan pentingnya dalam pengembangan produk.</li>
+              <li>Menerapkan prinsip-prinsip desain UI yang baik.</li>
+              <li>Merancang alur pengguna (user flow) yang logis.</li>
+              <li>Melakukan riset pengguna dasar.</li>
+              <li>Membuat wireframe dan prototipe interaktif.</li>
+              <li>Mengevaluasi usability sebuah desain.</li>
+              <li>Memahami pentingnya aksesibilitas.</li>
+            </ul>
+            <a href="#harga" class="cta-button enroll-button">Daftar Kursus Ini</a>
+          </div>
+          <div class="detail-right-column">
+            <div class="video-player-container">
+              <h3 id="video-section-title-imk">Video Pengantar</h3>
+              <div class="video-placeholder-large">
+                <iframe
+                  id="course-video-player-imk"
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/mi8E3hZ75cQ?si=lreLNf7_i8tDxTm6"
+                  title="Video Pengantar IMK"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="member-access-notice"><i class="fas fa-lock"></i> Akses video pembelajaran lengkap dan semua modul tersedia untuk anggota GoodSkill.</div>
+            </div>
+            <h3>Modul Pembelajaran</h3>
+            <ul class="module-list detail-module-list">
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/mi8E3hZ75cQ?si=lreLNf7_i8tDxTm6">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 1: Pengantar IMK</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Memahami definisi, sejarah, dan ruang lingkup IMK.</p>
+                  <a href="{{ asset ('front/assets/pdf/imk-modul01.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 1</a>
+                </div>
+              </li>
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/ek4GV5fESnU?si=5yhWpdfM7nfg68Oq">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 2: Prinsip Desain UI</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Mempelajari prinsip kunci dalam merancang antarmuka.</p>
+                  <a href="{{ asset ('front/assets/pdf/imk-modul02.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 2</a>
+                </div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 3: Dasar-dasar UX</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 4: Riset Pengguna</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 5: Prototyping & Wireframing</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 6: Usability Testing</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 7: Desain Aksesibilitas</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 8: Studi Kasus Desain Aplikasi</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 9: Tren Terkini dalam IMK</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 10: Proyek Akhir</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="detail-dm" class="course-detail-page" data-default-video="https://www.youtube.com/embed/vV_FAwiQX6c?si=bwakskJOqImTU89s">
+      <div class="container">
+        <button class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Daftar Kursus</button>
+        <h1 class="detail-course-title">Digital Marketing Full Stack: Dari SEO hingga Iklan</h1>
+        <div class="detail-course-meta">
+          <span><i class="fas fa-user-tie"></i> Instruktur: Sergio Ramos</span>
+          <span><i class="fas fa-tag"></i> Kategori: Pemasaran</span>
+          <span><i class="fas fa-signal"></i> Level: Menengah</span>
+        </div>
+        <div class="detail-content-layout">
+          <div class="detail-left-column">
+            <h2>Deskripsi Kursus</h2>
+            <p>Kuasai seluruh spektrum pemasaran digital modern, mulai dari SEO, SEM, hingga strategi media sosial dan pembuatan konten yang menarik.</p>
+            <h2>Apa yang Akan Anda Pelajari?</h2>
+            <ul>
+              <li>Memahami ekosistem digital marketing.</li>
+              <li>Riset kata kunci dan analisis kompetitor.</li>
+              <li>SEO On-Page dan Off-Page.</li>
+              <li>Kampanye Google Ads.</li>
+            </ul>
+            <a href="#harga" class="cta-button enroll-button">Daftar Kursus Ini</a>
+          </div>
+          <div class="detail-right-column">
+            <div class="video-player-container">
+              <h3 id="video-section-title-dm">Video Pengantar</h3>
+              <div class="video-placeholder-large">
+                <iframe
+                  id="course-video-player-dm"
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/vV_FAwiQX6c?si=bwakskJOqImTU89s"
+                  title="Video Pengantar Digital Marketing"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="member-access-notice"><i class="fas fa-lock"></i> Akses video pembelajaran lengkap dan semua modul tersedia untuk anggota GoodSkill.</div>
+            </div>
+            <h3>Modul Pembelajaran</h3>
+            <ul class="module-list detail-module-list">
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/ztPdyrnsfcw?si=5n8VpvXzrFnOSKwz">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 1: Pengantar DM Landscape</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Peran digital marketing dan channel utama.</p>
+                  <a href="{{ asset ('front/assets/pdf/dm-modul01.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 1</a>
+                </div>
+              </li>
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/2Iwr6A6kH1E?si=OXJWWwUnKikm-uxT">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 2: Riset Pasar Online</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Teknik riset kata kunci dan analisis kompetitor.</p>
+                  <a href="{{ asset ('front/assets/pdf/dm-modul02.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 2</a>
+                </div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 3: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 4: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 5: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 6: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 7: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 8: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 9: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 10: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 11: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 12: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 13: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 14: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 15: SEO Fundamentals</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <section id="detail-da" class="course-detail-page" data-default-video="https://www.youtube.com/embed/d6xiqfpXAU8?si=yLXiAGenKTEzLGhl">
+      <div class="container">
+        <button class="back-button"><i class="fas fa-arrow-left"></i> Kembali ke Daftar Kursus</button>
+        <h1 class="detail-course-title">Dasar Analisis Data dengan Python & SQL</h1>
+        <div class="detail-course-meta">
+          <span><i class="fas fa-user-tie"></i> Instruktur: Pepe</span>
+          <span><i class="fas fa-tag"></i> Kategori: Data Science</span>
+          <span><i class="fas fa-signal"></i> Level: Pemula</span>
+        </div>
+        <div class="detail-content-layout">
+          <div class="detail-left-column">
+            <h2>Deskripsi Kursus</h2>
+            <p>Masuki dunia data science dengan mempelajari dasar-dasar analisis data menggunakan Python dan SQL.</p>
+            <h2>Apa yang Akan Anda Pelajari?</h2>
+            <ul>
+              <li>Peran analisis data.</li>
+              <li>Query SQL dasar.</li>
+              <li>Python dan Pandas untuk analisis data.</li>
+            </ul>
+            <a href="#harga" class="cta-button enroll-button">Daftar Kursus Ini</a>
+          </div>
+          <div class="detail-right-column">
+            <div class="video-player-container">
+              <h3 id="video-section-title-da">Video Pengantar</h3>
+              <div class="video-placeholder-large">
+                <iframe
+                  id="course-video-player-da"
+                  width="100%"
+                  height="315"
+                  src="https://www.youtube.com/embed/d6xiqfpXAU8?si=yLXiAGenKTEzLGhl"
+                  title="Video Pengantar Analisis Data"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="member-access-notice"><i class="fas fa-lock"></i> Akses video pembelajaran lengkap dan semua modul tersedia untuk anggota GoodSkill.</div>
+            </div>
+            <h3>Modul Pembelajaran</h3>
+            <ul class="module-list detail-module-list">
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/r-Up0V_XHqE?si=8p5i4jz7J2UT1q_-">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 1: Pengantar Analisis Data</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Konsep dasar data dan peran analis data.</p>
+                  <a href="{{ asset ('front/assets/pdf/da-modul01.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 1</a>
+                </div>
+              </li>
+              <li class="module-item module-item-open" data-video-src="https://www.youtube.com/embed/wKaTDeYxVwA?si=cWNmBQYYD7iJvwCf">
+                <div class="module-header"><i class="fas fa-book-open"></i> <span>Modul 2: Dasar Spreadsheet</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content">
+                  <p>Menggunakan spreadsheet untuk analisis data awal.</p>
+                  <a href="{{ asset ('front/placeholder-pdf/da-modul-2.pdf') }}" target="_blank" class="module-link">Lihat Materi Modul 2</a>
+                </div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 3: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 4: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 5: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 6: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 7: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 8: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 9: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+              <li class="module-item module-item-locked">
+                <div class="module-header"><i class="fas fa-lock"></i> <span>Modul 10: Pengenalan SQL</span> <i class="fas fa-chevron-down module-toggle-icon"></i></div>
+                <div class="module-content"><p>Konten hanya untuk member.</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="mainFooter">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column footer-about">
+            <h3 class="logo">GoodSkill</h3>
+            <p>Platform e-learning terdepan untuk pengembangan profesional dan personal bagi pembelajar dewasa. Investasi keahlian, raih masa depan.</p>
+            <div class="social-media">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a> <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-column footer-links">
+            <h4>Jelajahi</h4>
+            <ul>
+              <li><a href="#hero" class="back-to-main">Beranda</a></li>
+              <li><a href="#kursus" class="back-to-main">Semua Kursus</a></li>
+              <li><a href="#instruktur" class="back-to-main">Instruktur Kami</a></li>
+              <li><a href="#harga" class="back-to-main">Paket Harga</a></li>
+              <li><a href="blog.html">Blog & Artikel</a></li>
+            </ul>
+          </div>
+          <div class="footer-column footer-links">
+            <h4>Bantuan</h4>
+            <ul>
+              <li><a href="#faq" class="back-to-main">FAQ</a></li>
+              <li><a href="#kontak" class="back-to-main">Hubungi Kami</a></li>
+              <li><a href="#">Pusat Bantuan</a></li>
+              <li><a href="#">Kebijakan Privasi</a></li>
+              <li><a href="#">Syarat & Ketentuan</a></li>
+            </ul>
+          </div>
+          <div class="footer-column footer-subscribe">
+            <h4>Langganan Newsletter</h4>
+            <p>Dapatkan info kursus terbaru, promo, dan tips belajar langsung ke email Anda.</p>
+            <form class="subscribe-form">
+              <input type="email" placeholder="Email Anda" required /> <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">&copy; <span id="currentYear">2025</span> GoodSkill Indonesia. Semua Hak Dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="{{ asset ('front/script.js') }}"></script>
+  </body>
+</html>
+
